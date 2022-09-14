@@ -27,13 +27,19 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+App Walkthrough:
+
+<img src='https://github.com/Reckhammer/Wishlist/blob/master/Gifs/InputtingWish.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+Scrolling Screen:
+
+<img src='https://github.com/Reckhammer/Wishlist/blob/master/Gifs/ScrollingScreen.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
+
 [peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
