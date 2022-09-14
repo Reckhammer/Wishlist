@@ -44,7 +44,7 @@ GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I had trouble finding the proper way to convert a String to a floating point number in Kotlin for some reason, and any other problems I had were because of typos
 
 ## License
 
