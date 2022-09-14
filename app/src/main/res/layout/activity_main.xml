@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/itemNameInput"
+        android:layout_width="252dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="ItemName"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/priceInput"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wishRV" />
+
+    <EditText
+        android:id="@+id/priceInput"
+        android:layout_width="119dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Item Price"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wishRV" />
+
+    <EditText
+        android:id="@+id/linkInput"
+        android:layout_width="286dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="4dp"
+        android:ems="10"
+        android:hint="https://www.shopURL.com"
+        android:inputType="textWebEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemNameInput"
+        app:layout_constraintVertical_bias="0.914" />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="118dp"
+        android:layout_height="48dp"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/linkInput"
+        app:layout_constraintTop_toBottomOf="@+id/priceInput"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/wishRV"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/itemNameInput"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
